@@ -1,0 +1,72 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Blinker:wght@200;300;400;600&family=Josefin+Sans:wght@200;300&family=Montserrat:wght@300;400;500&family=Noto+Serif:wght@400;700&display=swap');
+body {
+background-color: #16181b;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.bgcolor{
+  background-color: #242526;
+}
+.shadow{
+  box-shadow: 5px 5px 15px 10px;
+}
+.shadow2{
+  box-shadow: 5px 0px 15px ;
+}
+.fbg{
+  background-color: #0A0624;
+}
+.htext{
+  color: #04A9FA;
+  font-family: 'Montserrat', sans-serif;
+}
+.gobtn{
+  background-image: linear-gradient(90deg,#f13fa8 0%,#04a9fa 100%)!important;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.ftext{
+  color: #AEAEAE;
+}
+.pgrs {
+  width: 100%;
+  margin-left: -11.5%;
+  height: 5px;
+  background-color: #1d83c3;
+  border-radius: 2px;
+  margin-left: 0 ;
+}
+/* .imgGrid{
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr,1fr,1fr;
+  grid-gap: 40px;
+}
+.imgWrap{
+  overflow: hidden;
+  height: 0;
+  padding: 50% 0;
+  position: relative;
+  opacity: 0.8;
+} */
+
+/* .imgWrap img{
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
